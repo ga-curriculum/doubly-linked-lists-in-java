@@ -23,7 +23,8 @@ By the end of this lesson, you will be able to:
 3. [Key Features](#key-features)
 4. [Visual Representation](#visual-representation)
 5. [Moving Forward and Backward](#moving-forward-and-backward)
-6. [Summary and Key Takeaways](#summary-and-key-takeaways)
+6. [Implementation in Java](#implementation-in-java)
+7. [Summary and Key Takeaways](#summary-and-key-takeaways)
 
 ## Introduction to Linked Lists
 
