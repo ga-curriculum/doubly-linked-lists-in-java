@@ -1,0 +1,31 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+doublyLinkedLists = new Template.Microlesson {
+  friendlyName = "Doubly Linked Lists"
+  dirName = "doubly-linked-lists"
+  type = "Content"
+  videoUrl = ""
+}
+
+doublyLinkedListImplementation = new Template.Microlesson {
+  friendlyName = "Doubly Linked List Implementation"
+  dirName = "doubly-linked-list-implementation"
+  type = "Content"
+  videoUrl = ""
+}
+
+javasOfficialImplementationOfLinkedList = new Template.Microlesson {
+  friendlyName = "Java's Official Implementation of Linked List"
+  dirName = "javas-official-implementation-of-linked-list"
+  type = "Content"
+  videoUrl = ""
+}
