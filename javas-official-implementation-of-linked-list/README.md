@@ -35,47 +35,9 @@ This list in a non-exhaustive list of methods of the `LinkedList` class.
 |`clear()`|Removes all of the elements from the `LinkedList` object.|`list.clear()`|
 
 ## Using `LinkedList` to write programs
-### Example 1: Implementing a Queue
-```java
-import java.util.LinkedList;
 
-public class QueueExample {
-    public static void main(String[] args) {
-        LinkedList<String> queue = new LinkedList<>();
 
-        queue.addLast("John");
-        queue.addLast("Jane");
-        queue.addLast("Mark");
-
-        System.out.println("Queue: " + queue);
-
-        System.out.println("Serving: " + queue.removeFirst());
-        System.out.println("Updated Queue: " + queue);
-    }
-}
-```
-
-### Example 2: Implementing a Stack
-```java
-import java.util.LinkedList;
-
-public class StackExample {
-    public static void main(String[] args) {
-        LinkedList<String> stack = new LinkedList<>();
-
-        stack.addFirst("Book 1");
-        stack.addFirst("Book 2");
-        stack.addFirst("Book 3");
-
-        System.out.println("Stack: " + stack);
-
-        System.out.println("Popping: " + stack.removeFirst());
-        System.out.println("Updated Stack: " + stack);
-    }
-}
-```
-
-### Example 3: Custom playlist creation
+### Custom playlist creation
 ```java
 import java.util.LinkedList;
 
@@ -95,4 +57,12 @@ public class PlaylistExample {
 }
 ```
 
+## Final reflections
+Java's `LinkedList` class offers a flexible, doubly linked list implementation for dynamic data storage. While ideal for use cases requiring frequent insertions and deletions, it has limitations in random access performance compared to alternatives like `ArrayList`. Understanding the nuances of its operation ensures that we use it effectively in our programs.
+
+
+## Independent practice
+(15 min)
+1. Implement a queue data structure using `LinkedList` class
+2. Implement a stack data structure using `LinkedList` class
 

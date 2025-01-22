@@ -42,6 +42,7 @@ A doubly linked list class can have the following components:
   - A **search** method to search and find a specific data item.
   - A **size** method to ascertain the number of nodes in the doubly linked list at any time during the program run.
 
+## Demo of a doubly linked list implementation
 ```java
 class DoublyLinkedList {
     private Node head;
@@ -207,13 +208,11 @@ class DoublyLinkedList {
         return size;
     }
 
-    // Main Method to Test
-
 }
 ```
 
-## Demo of a doubly linked list
-
+## Demo of working with a doubly linked list 
+Now, let's look at how we can use the above class as a doubly linked list object.
 ```java
 public class DoublyLinkedListDemo {
     public static void main(String[] args) {
